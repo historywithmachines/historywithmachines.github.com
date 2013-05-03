@@ -1,0 +1,98 @@
+html {
+		background-image: url (mapoutline.gif);
+		color: #603913;
+		
+		}
+		
+#mapoutline {
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right:0;
+			opacity: 0.1;
+			min-height: 100%;
+			width: 100%;
+			
+			}
+
+body {
+		background-color: #e3d3b8;
+		font-family: Georgia;
+		font-size: 14pt;
+		margin-left: 75px;
+		margin-top: 50px;
+		}
+		
+h1 {
+	font-size: 36px;
+	font-weight: normal;
+	color:#603913;
+	font-family: Lithos Pro Regular;
+	
+	}
+		
+#main_content { 
+	
+		font-size: 14pt;
+		margin: 20px auto;
+    padding:2%;
+    width: 65%;
+	opacity:0.9;
+	
+}
+		
+.navigation 
+{
+background-color:#b42714;
+padding:20px; 
+width:90%;
+margin:0 10px 0 20px; 
+}
+	
+.navigation a {
+	text-decoration:none;
+	font-size:16px;
+	font-family:Georgia, serif;
+	color:#ffffff;	
+	font-weight: bold;
+	padding: 0 30px 70px;
+	
+}
+
+
+.navigation a:visited {
+	text-decoration:none;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ffffff;
+
+	
+	.formlabel {
+	font-weight: normal;
+	width: 250px;
+	margin-bottom: 12px;
+	float: left;
+	text-align: left;
+	clear: left;
+	padding: 10px;
+	
+}
+.formfield {
+	margin-bottom: 15px;
+	
+		}
+
+
+h2 {
+	font-weight: 600;
+	}
+	
+
+	
+	
+.submit {
+		text-align: center;
+		
+		}
+	
