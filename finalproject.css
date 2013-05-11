@@ -40,6 +40,7 @@ img.bg {
 }
 
 
+
 #homepage a {
 				text-decoration: none;
 				
@@ -62,13 +63,8 @@ margin-bottom: 20px;
 
 h2{
 font-family: Georgia;
-font:24px;
+margin-left: 50px;
 color:#603913;
-font-weight:bold;
-margin-left:60px;
-
-margin-top: 30px;
-margin-bottom: 10px;
 }
 
 .navigation 
@@ -113,18 +109,30 @@ img.bk {
 		float: right;
 }
 
-img.washita_sign {
-		float: right;
+		
+.Lepore {
+		font-style: italic;
+		font-size: 16pt;
+		margin: 50px 0 10px 0;
 		width: 60%;
+		float: right;
+		text-align: justify;
+		}
+
+img .washitasign{
+
+		width: 20%;
+		float: left;
+		margin-right: -50px;
 		
 		}
 		
 blockquote {
 
 		font-style: italic;
-		font-weight: 700;
-		font-size: 18pt;
-		margin: 50px 100px 50px 100px;
+		font-weight: 500;
+		font-size: 14pt;
+		margin: 50px 70px 50px 70px;
 		}
 
 		
@@ -184,11 +192,10 @@ img.sheridan {
 		}
 		
 .hintro {
-		padding: 5px 60px 0 60px;
-		margin-right: 100px;
+		margin-right: 50px;
+		margin-left: 50px;
 		font-family: Georgia;
 		font-size: 22px;
-		font-weight: 500;
 		text-align: justify;
 		}
 		
@@ -258,8 +265,30 @@ img.utley{
 		width: 700px;
 		color: #603913;
 		margin-left: 65px;
-
 		}
+		
+.hutley a {
+		text-decoration:underline;
+	font-family:Georgia, serif;
+	color:#603913;	
+	font-weight: bold;
+	}
+		
+.utleyheader {
+font-family: Georgia;
+color:#603913;
+margin: 30px 30px 10px 22px;
+padding-left: 20px;
+border-style: solid;
+border-width: 1px;
+}
+
+.utleysubheader {
+font-family: Georgia;
+color:#603913;
+margin-left: 25px;
+margin-right: 25px;
+}
 		
 img.hoig{
 		float: left;
@@ -272,17 +301,30 @@ img.hoig{
 		width: 700px;
 		margin-left: 70px;
 		color: #603913;
-	
-		
+
 		}
 		
+.hhoig a {
+		text-decoration:underline;
+	font-family:Georgia, serif;
+	color:#603913;	
+	font-weight: bold;
+	}
 
 .box_content{
-width:60%;
+width:70%;
 margin-left:5%;
 padding:5px;
 color: #603913;
-text-indent: 25px;
+}
+
+.box_content a {
+
+			text-decoration:underline;
+			font-family:Georgia, serif;
+			color:#603913;	
+			font-weight: bold;
+			
 }
 
 .extra{
@@ -290,6 +332,31 @@ text-indent: 25px;
 background: url('mapoutline_1.png') no-repeat right top;
 
 }
+
+.nmintro {
+		margin-right: 20px;
+		margin-left: 50px;
+		font-family: Georgia;
+		font-size: 22px;
+		font-weight: 500;
+		}
+
+img.washita_sign {
+		float: right;
+		width: 700px;
+		margin-top: -90px;
+		margin-left: -90px;
+		margin-right: -80px;
+		margin-bottom: -40px;
+		}
+
+.yiintro {
+		margin-right: 50px;
+		margin-left: 50px;
+		font-family: Georgia;
+		font-size: 22px;
+
+		}
 
 .formlabel {
 	font-weight: normal;
@@ -340,6 +407,10 @@ footer a:visited {
 	font-family:Arial, Helvetica, sans-serif;
 	color:#603913;
 	}
+	
+.bibliography {
+		margin-left: 80px;
+		}
 	
 	/*
  * 300 or more
