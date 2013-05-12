@@ -54,7 +54,7 @@ img.bg {
 	
 h1 {
 font-family: 'Fredericka the Great', Georgia;
-font-size:48px;
+font-size:44px;
 color:#603913;
 font-weight:lighter;
 text-align:center;
@@ -70,9 +70,9 @@ color:#603913;
 .navigation 
 {
 background-color:#b42714;
-padding:20px; 
-width:90%;
-margin:0 10px 0 20px; 
+padding:10px; 
+width:95%;
+margin:0 10px 0 10px; 
 }
 	
 .navigation a {
@@ -81,7 +81,7 @@ margin:0 10px 0 20px;
 	font-family:Georgia, serif;
 	color:#ffffff;	
 	font-weight: bold;
-	padding: 0 30px 70px;
+	padding:0 10px 0 10px;	
 	
 }
 
