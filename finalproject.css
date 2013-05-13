@@ -62,10 +62,9 @@ margin-bottom: 20px;
 margin-left: -50px;
 }
 
-h2{
-font-family: Georgia;
-margin-left: 50px;
-color:#603913;
+.hpintro {
+		margin: 20px 70px -20px 50px;
+		font-size: 22px;
 }
 
 .navigation 
@@ -109,6 +108,7 @@ text-align: center;
 img.bk {
 
 		float: right;
+		padding: 10px;
 }
 
 		
@@ -146,72 +146,88 @@ img .washitasign{
 		
 }
 		
-blockquote {
-
-		font-style: italic;
-		font-weight: 500;
-		font-size: 14pt;
-		margin: 50px 70px 50px 70px;
-		}
 
 		
-.quote{
-		margin-left:250px;
-		padding:10px;
-		font-style: italic;
-		color: #603913;
-		font-size: 18pt;
-		font-weight:bold;
-		height:300px;
-		
-		
-		}
-.keyfig_images {
-
-		width: 30%;
-		float: left;
-		margin-top: 20px;
-		}
-
-.keyfig_quotes {
-
-		
-		font-style: italic;
-		color: #603913;
-		font-size: 18pt;
-		font-weight:bold;
-		width: 60%;
-		float: right;
-		margin-top: 10px;
-		
-		}
-		
+.kfintro{
+		margin-right: 70px;
+		margin-left: 50px;
+		font-family: Georgia;
+		font-size: 22px;
+		text-align: justify;
+}
+	
 
 
 img.cheyenne {
 		float: left;
-		width: 20%;
-		}
-
-img.custer {
-		float: right;
-		width: 20%;
-		margin-top: 100px;
-		}
+		height: 200px;
+		width: 150px;
+		padding-right: 30px;
+		margin-bottom: 90px;
+		margin-right: 20px;
+		margin-top: 50px;
+		}	
+	
+.kfcheyenne {
+		float: left;
+		width: 700px;
+		margin-bottom: 10px;
+		margin-left: 30px;
+		margin-top: 20px;
+}
 
 img.blackkettle{
 		float: left;
-		width: 20%;
+		height: 270px;
+		width: 190px;
+		padding-right: 30px;
+		margin-top: 20px;
+		margin-bottom: 40px;
 	
 		}
-		
-img.sheridan {
-		float: right;
-		width: 20%;
+
+.kfblackkettle{
+		float: left;
+		width: 700px;
+		margin-left: 25px;
+		margin-bottom: 10px;
+}
+
+img.custer {
+		float: left;
+		height: 220px;
+		width: 180px;
+		margin-top: 50px;
+		padding-right: 40px;
+		margin-bottom: 70px;
 		}
+
+.kfcuster {
+		float: left;
+		width: 700px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+}
+
+img.sheridan{
+		float: left;
+		height: 230px;
+		width: 230px;
+		padding-right: 20px;
+		margin-top: 50px;
+		margin-bottom: 150px;
+		}
+
+.kfsheridan {
+		float: left;	
+		width: 700px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
 		
 .hintro {
-		margin-right: 50px;
+		margin-right: 70px;
 		margin-left: 50px;
 		font-family: Georgia;
 		font-size: 22px;
@@ -262,8 +278,7 @@ img.bent {
 		}
 		
 .hbent {
-		float: left;
-		
+		float: left;	
 		width: 700px;
 		margin-left: 40px;
 		color: #603913;
@@ -287,19 +302,17 @@ img.utley{
 		}
 		
 .hutley a {
-		text-decoration:underline;
+	text-decoration:underline;
 	font-family:Georgia, serif;
 	color:#603913;	
 	font-weight: bold;
 	}
 		
 .utleyheader {
-font-family: Georgia;
+font-family: 'Fredericka the Great', Georgia;
 color:#603913;
-margin: 30px 30px 10px 22px;
-padding-left: 20px;
-border-style: solid;
-border-width: 1px;
+margin: 30px 45px 10px 22px;
+
 }
 
 .utleysubheader {
@@ -325,11 +338,25 @@ img.hoig{
 		
 .hhoig a {
 		text-decoration:underline;
-	font-family:Georgia, serif;
-	color:#603913;	
-	font-weight: bold;
+		font-family:Georgia, serif;
+		color:#603913;	
+		font-weight: bold;
 	}
 
+.hoigheader{
+		font-family: 'Fredericka the Great', Georgia;
+		color:#603913;
+		margin: 30px 45px 10px 22px;
+		
+		}
+		
+.hoigsubheader {
+font-family: Georgia;
+margin-left: 25px;
+margin-right: 45px;
+padding-right: 30px;
+}
+	
 .box_content{
 width:70%;
 margin-left:5%;
@@ -408,7 +435,8 @@ img.washita_sign {
 
 		
 footer {
-	float: right;
+	float: left;
+
 	}
 	
 footer a {
@@ -430,6 +458,24 @@ footer a:visited {
 .bibliography {
 		margin-left: 80px;
 		}
+	
+hr{
+	width: 95%;
+	height: 2px;
+	background-color:#b42714;
+	
+	}
+	
+	
+section.separated {
+    content:""; 
+  height:1px;
+  background:-moz-linear-gradient(left, #e3d3b8 0%,#b42714 50%,#e3d3b8 100%); 
+  background:-webkit-linear-gradient(left, #e3d3b8 0%,#b42714 50%,#e3d3b8 100%); 
+  background:linear-gradient(left, #e3d3b8 0%,#b42714 50%,#e3d3b8 100%);
+  width:100%;
+  display:block;
+}
 	
 	/*
  * 300 or more
