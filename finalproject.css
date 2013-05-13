@@ -437,7 +437,7 @@ img.washita_sign {
 		
 footer {
 	float: left;
-	padding: 10px;
+	padding: 15px;
 	}
 	
 footer a {
@@ -462,7 +462,7 @@ footer a:visited {
 	
 hr{
 	width: 95%;
-	height: 2px;
+	height: 1.5px;
 	background-color:#b42714;
 	
 	}
