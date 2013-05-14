@@ -152,7 +152,7 @@ img .washitasign{
 		margin-right: 70px;
 		margin-left: 50px;
 		font-family: Georgia;
-		font-size: 22px;
+		font-size: 20px;
 		text-align: justify;
 }
 	
@@ -228,7 +228,7 @@ img.sheridan{
 		margin-right: 70px;
 		margin-left: 50px;
 		font-family: Georgia;
-		font-size: 22px;
+		font-size: 20px;
 		text-align: justify;
 		}
 		
@@ -321,7 +321,8 @@ margin-right: 25px;
 		
 img.hoig{
 		float: left;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
+		padding-top: 20px;
 		padding-right: 20px;
 		margin-right: 20px;
 		}
@@ -380,7 +381,7 @@ background: url('mapoutline_1.png') no-repeat right top;
 		margin-right: 20px;
 		margin-left: 50px;
 		font-family: Georgia;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 500;
 		}
 
@@ -393,17 +394,17 @@ img.washita_sign {
 		margin-bottom: -40px;
 		}
 
-.yiintro {
+.cintro {
 		margin-right: 50px;
 		margin-left: 50px;
 		font-family: Georgia;
-		font-size: 22px;
+		font-size: 20px;
 
 		}
 
 .formlabel {
 	font-weight: normal;
-	width: 80%;
+	width: 90%;
 	margin-top: 12px;
 	margin-bottom: 8px;
 	text-align: left;
@@ -446,7 +447,6 @@ footer a {
 	
 }
 
-
 footer a:visited {
 	text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif;
@@ -482,6 +482,16 @@ section.separated {
   width:100%;
   display:block;
 }
+
+.contactinfo a{
+			text-decoration: none;
+			color: #603913;
+			}
+
+			
+a:hover {
+		color: red;
+		}
 	
 	/*
  * 300 or more
