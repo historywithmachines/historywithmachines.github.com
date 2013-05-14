@@ -63,18 +63,19 @@ margin-left: -50px;
 }
 
 .hpintro {
-		margin: 20px 70px -20px 50px;
+		margin: 10px 70px 20px 50px;
 		font-size: 22px;
 }
 
 .navigation 
 {
 background-color:#b42714;
-padding:10px; 
+padding:10px 10px 10px 10px; 
 width:90%;
 margin:0 10px 0 10px; 
 text-align: center;
-height: 30px;
+float:none;
+
 }
 	
 .navigation a {
@@ -83,8 +84,9 @@ height: 30px;
 	font-family:Georgia, serif;
 	color:#ffffff;	
 	font-weight: bold;
-	padding:20px 10px 20px 10px;	
-	
+	padding:10px 10px 10px 10px;	
+	float: none;
+	text-align: center;
 }
 
 
@@ -496,6 +498,10 @@ a:hover {
 		color: red;
 		}
 	
+
+
+}
+
 	/*
  * 300 or more
  */
@@ -535,7 +541,7 @@ img.bg {
 		font-size: 14pt;
 		margin: 20px auto;
 		padding:2%;
-		width: 70%;
+		width: 90%;
 		opacity:0.95;
 		text-decoration:none;
 		font-family: Georgia;
@@ -558,35 +564,40 @@ img.bg {
 	
 h1 {
 font-family: 'Fredericka the Great', Georgia;
-font-size:44px;
+font-size:26px;
 color:#603913;
 font-weight:lighter;
 text-align:center;
 margin-bottom: 20px;
-margin-left: -50px;
+margin-left: 10px;
 }
 
 .hpintro {
-		margin: 20px 70px -20px 50px;
-		font-size: 22px;
+		margin: 40px 70px -20px 50px;
+		font-size: 14px;
 }
 
 .navigation 
 {
 background-color:#b42714;
-padding:10px; 
-width:90%;
-margin:0 10px 0 10px; 
+padding:10px 5px 10px 5px; 
+width:70%;
+margin:10px 30px 10px 30px; 
 text-align: center;
+height: auto;
+display: block;
+float: left;
 }
 	
 .navigation a {
 	text-decoration:none;
-	font-size:16px;
+	font-size:14px;
 	font-family:Georgia, serif;
 	color:#ffffff;	
 	font-weight: bold;
-	padding:20px 10px 20px 10px;	
+	padding:15px 25px 15px 15px;
+	text-align: center;
+	float: left;
 	
 }
 
@@ -603,7 +614,24 @@ text-align: center;
 	}
 	
 
+.Lepore {
+		font-style: italic;
+		font-size: 12pt;
+		margin: 0 40px 20px -20px;
+		width: 50%;
+		float: right;
+		text-align: justify;
+		height: auto;
+		
+		}
 
+img .washitasign{
+
+
+		margin-right: -30px;
+		float: left;
+		
+		}
 
 .left_content{
 		width:50%;
@@ -614,10 +642,6 @@ img.bk {
 		float: right;
 		padding: 10px;
 }
-
-}
-
-
 @media screen and (min-width: 600px) 
 {
 	html {
@@ -653,7 +677,7 @@ img.bg {
 		font-size: 14pt;
 		margin: 20px auto;
 		padding:2%;
-		width: 70%;
+		width: 90%;
 		opacity:0.95;
 		text-decoration:none;
 		font-family: Georgia;
@@ -676,7 +700,7 @@ img.bg {
 	
 h1 {
 font-family: 'Fredericka the Great', Georgia;
-font-size:44px;
+font-size:30px;
 color:#603913;
 font-weight:lighter;
 text-align:center;
@@ -685,29 +709,30 @@ margin-left: -50px;
 }
 
 .hpintro {
-		margin: 20px 70px -20px 50px;
-		font-size: 22px;
+		margin: 20px 30px 20px 30px;
+		font-size: 18px;
 }
 
 .navigation 
 {
 background-color:#b42714;
-padding:10px; 
+padding:20px 20px 20px 20px; 
 width:90%;
-margin:0 10px 0 10px; 
+margin:10px 80px 50px 30px; 
 text-align: center;
-height: 30px;
-display:block;
+height: auto;
+display: block;
+float: left;
 }
-	
+
 .navigation a {
 	text-decoration:none;
 	font-size:16px;
 	font-family:Georgia, serif;
 	color:#ffffff;	
 	font-weight: bold;
-	padding:20px 10px 20px 10px;	
-	
+	padding:20px 30px 20px 10px;	
+	float: left;
 }
 
 
@@ -722,240 +747,25 @@ display:block;
 
 	}
 	
-
-
-
-.left_content{
-		width:50%;
-		}
-
-img.bk {
-
+.Lepore {
+		font-style: italic;
+		font-size: 12pt;
+		margin: 0 40px 20px -20px;
+		width: 70%;
 		float: right;
-		padding: 10px;
-}
-
-
-@media screen and (min-width: 768px) 
-{
-html {
-background-color:#e3d3b8;
-
-}
-
-
-body {
-		background-color: #e3d3b8;
-		font-size: 14pt;
-		color: #603913;
-		font-family: Georgia;
+		text-align: justify;
+		height: auto;
 		
-	
-  
-}
-img.bg {
-			position: fixed; 
-			top: -20%;
-			left: 0;
-			bottom: 0;
-			right:0;
-			opacity:0.3;
-			min-height: 100%;
-			width: 100%;
-
-}
-
-
-#main_content { 
-	
-		font-size: 14pt;
-		margin: 20px auto;
-		padding:2%;
-		width: 70%;
-		opacity:0.95;
-		text-decoration:none;
-		font-family: Georgia;
-
- 
-}
-
-
-
-#homepage a {
-				text-decoration: none;
-				
-				}
-
-#homepage a:visited {
-					text-decoration:none;
-					color: #603913;
-				
-					}
-	
-h1 {
-font-family: 'Fredericka the Great', Georgia;
-font-size:44px;
-color:#603913;
-font-weight:lighter;
-text-align:center;
-margin-bottom: 20px;
-margin-left: -50px;
-}
-
-.hpintro {
-		margin: 20px 70px -20px 50px;
-		font-size: 22px;
-}
-
-.navigation 
-{
-background-color:#b42714;
-padding:10px; 
-width:90%;
-margin:0 10px 0 10px; 
-text-align: center;
-}
-	
-.navigation a {
-	text-decoration:none;
-	font-size:16px;
-	font-family:Georgia, serif;
-	color:#ffffff;	
-	font-weight: bold;
-	padding:20px 10px 20px 10px;	
-	
-}
-
-
-
-
-.navigation a:visited {
-	text-decoration:none;
-	font-size:16px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#ffffff;
-
-
-	}
-	
-
-
-
-.left_content{
-		width:50%;
 		}
 
-img.bk {
+img .washitasign{
 
-		float: right;
-		padding: 10px;
-}
-
-
-}	
-@media screen and (min-width: 960px) 
-{
-html {
-background-color:#e3d3b8;
-
-}
-
-
-body {
-		background-color: #e3d3b8;
-		font-size: 14pt;
-		color: #603913;
-		font-family: Georgia;
+		width: 30%;
+		height: 30%;
+		margin-right: -30px;
+		float: center;
 		
-	
-  
-}
-img.bg {
-			position: fixed; 
-			top: -20%;
-			left: 0;
-			bottom: 0;
-			right:0;
-			opacity:0.3;
-			min-height: 100%;
-			width: 100%;
-
-}
-
-
-#main_content { 
-	
-		font-size: 14pt;
-		margin: 20px auto;
-		padding:2%;
-		width: 70%;
-		opacity:0.95;
-		text-decoration:none;
-		font-family: Georgia;
-
- 
-}
-
-
-
-#homepage a {
-				text-decoration: none;
-				
-				}
-
-#homepage a:visited {
-					text-decoration:none;
-					color: #603913;
-				
-					}
-	
-h1 {
-font-family: 'Fredericka the Great', Georgia;
-font-size:44px;
-color:#603913;
-font-weight:lighter;
-text-align:center;
-margin-bottom: 20px;
-margin-left: -50px;
-}
-
-.hpintro {
-		margin: 20px 70px -20px 50px;
-		font-size: 22px;
-}
-
-.navigation 
-{
-background-color:#b42714;
-padding:10px; 
-width:90%;
-margin:0 10px 0 10px; 
-text-align: center;
-}
-	
-.navigation a {
-	text-decoration:none;
-	font-size:16px;
-	font-family:Georgia, serif;
-	color:#ffffff;	
-	font-weight: bold;
-	padding:20px 10px 20px 10px;	
-	
-}
-
-
-
-
-.navigation a:visited {
-	text-decoration:none;
-	font-size:16px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#ffffff;
-
-
-	}
-	
-
+		}
 
 
 .left_content{
@@ -968,8 +778,3 @@ img.bk {
 		padding: 10px;
 }
 
-}
-
-/*
- * Print styles
- */
