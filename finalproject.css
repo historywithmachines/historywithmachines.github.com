@@ -146,13 +146,25 @@ img .washitasign{
 }
 
 .qend{
-		position: absolute;
+	
 		font-size: 70px;
 		font: Times New Roman;
-		
+		margin-right: -30px;
 }
 		
-
+.kfstart{
+		margin-top: -10px;
+		margin-left: -45px;
+		font: Times New Roman;
+		font-size: 70px;
+		float: left;
+		}
+		
+.kfend{
+		font-size: 70px;
+		font: Times New Roman;
+		position: absolute;
+		}
 		
 .kfintro{
 		margin-right: 70px;
