@@ -138,7 +138,7 @@ img .washitasign{
 .qstart {
 		padding-right: 15px;
 		padding-bottom: 20px;
-		margin-bottom: 70px;
+		margin-bottom: 60px;
 		font: Times New Roman;
 		font-size: 70px;
 		float: left;
@@ -150,6 +150,8 @@ img .washitasign{
 		font-size: 70px;
 		font: Times New Roman;
 		margin-right: -30px;
+		margin-left: 20px;
+		position: absolute;
 }
 		
 .kfstart{
